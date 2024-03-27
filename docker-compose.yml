@@ -7,8 +7,7 @@ services:
       context: .
       dockerfile: CondoTech/Dockerfile
   db:
-      container_name: db_mysql
-      image: mysql:latest
+      build: ./mysql/
       environment:
         - MYSQL_ROOT_PASSWORD=root_pwd
         - MYSQL_USER=admin

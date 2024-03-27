@@ -1,4 +1,5 @@
 using CondoTech.Domain.Context;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
